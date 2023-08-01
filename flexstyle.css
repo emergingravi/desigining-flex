@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    background: linear-gradient(to right ,navy,orange,blue);
+    flex-flow: row wrap;
+    padding:30px;
+    justify-content: center;
+
+}
+.flex-container > div{
+    width: 100px;
+    height: 100px;
+    color: rgb(234, 244, 244);
+    background-color:rgb(125, 125, 246);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgb(83, 173, 203);
+}
+.flex-container1{
+    margin-bottom:1px;
+    display: flex;
+    background: linear-gradient(to right ,red,blue,pink);
+    flex-flow: row wrap;
+    padding:30px;
+    justify-content: center;
+
+}
+.flex-container1 > div{
+    width: 100px;
+    height: 100px;
+    color: rgb(234, 244, 244);
+    background-color:rgb(125, 125, 246);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgb(83, 173, 203);
+}
